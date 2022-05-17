@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="htdocs/css/fornac.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="Site_packages/fornac.css" media="screen" />
 
 <body onload="forna()">
 <?php
@@ -33,9 +33,9 @@ shell_exec('rm input.txt');
 
 <div id='rna_ss'> </div> <br><br>
 
-	<script type='text/javascript' src='htdocs/js/jquery.js'></script>
-	<script type='text/javascript' src='htdocs/js/d3.js'></script>
-	<script type='text/javascript' src='htdocs/js/fornac.js'></script>
+	<script type='text/javascript' src='Site_packages/jquery.js'></script>
+	<script type='text/javascript' src='Site_packages/d3.js'></script>
+	<script type='text/javascript' src='Site_packages/fornac.js'></script>
     	<script type='text/javascript'>
         function forna(){
                 var container = new FornaContainer("#rna_ss", {'applyForce': true});
@@ -49,8 +49,8 @@ shell_exec('rm input.txt');
 
 </script>
 
-  <script type="text/javascript" src="../MolArt/dist/molart.js"></script>
-  <script type="text/javascript" src="../MolArt/examples/5uig_a.js"></script>
+  <script type="text/javascript" src="Site_packages/molart.js"></script>
+  <script type="text/javascript" src="Site_packages/5uig_a.js"></script>
 
 
 <p> <div id="pluginContainer"></div></p>
