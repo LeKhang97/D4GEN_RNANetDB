@@ -58,7 +58,7 @@ $pdb_csv = array_unique($pdbs_csv);
     $all_result = array_intersect($pdb_sql, $pdb_csv); // 'pdb_id' present in the 2 lists (SQLite and csv)
 //print_r($all_result);
     foreach ($all_result as $rows){
-        $my_table = $dbconn->query("SELECT * FROM structure WHERE pdb_id = $row");
+        $my_table = $dbconn->query("SELECT * FROM structure WHERE pdb_id == $row");
         echo $row['pdb_id']." | ".$row['pdb_model']." | ".$row['date']." | ".$row['exp_method']." | ".$row['resolution']
         echo "<br>"
         /*echo $rows;
