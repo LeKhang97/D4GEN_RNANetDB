@@ -17,4 +17,5 @@ for i in range(len(text1)):
 fig = px.bar(x=list1, y=list2, labels={'x':'Resolution', 'y':'Number of PDB'})
 fig.show()
 
+# Interactive plot in HTML file (pathway + name of the file)
 plotly.offline.plot(fig, filename='/home/d4gen/Desktop/RNANet/resolution_stat.html')
