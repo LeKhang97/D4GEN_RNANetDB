@@ -5,3 +5,5 @@ Create html file in the current directory:
 ```
 python3 stat_resolution.py path/to/stat_resol.txt
 ```
+
+**Output :** HTML file with interactive plot
