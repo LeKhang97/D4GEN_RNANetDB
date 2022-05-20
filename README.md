@@ -1,3 +1,3 @@
 # D4GEN_RNANetDB
 
-# By
+# By F. Gastrin
