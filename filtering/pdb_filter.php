@@ -59,8 +59,8 @@ $pdb_csv = array_unique($pdbs_csv);
 //print_r($all_result);
     foreach ($all_result as $rows){
         $my_table = $dbconn->query("SELECT * FROM structure WHERE pdb_id == $row");
-        echo $row['pdb_id']." | ".$row['pdb_model']." | ".$row['date']." | ".$row['exp_method']." | ".$row['resolution']
-        echo "<br>"
+        echo $row['pdb_id']." | ".$row['pdb_model']." | ".$row['date']." | ".$row['exp_method']." | ".$row['resolution'];
+        echo "<br>";
         /*echo $rows;
 	echo "<br>";*/
     }
