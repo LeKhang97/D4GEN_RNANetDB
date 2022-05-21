@@ -1,4 +1,4 @@
-# This files here is to visualize the 2D from given pdb_id and chain_name
+# These files are for visualizing the 2D from given pdb_id and chain_name
 
 ### First you need to have the .json file, RNAVienna and forna
 - The .json file can be access via: https://drive.google.com/file/d/1ZYEkASg5wjXhZk3yRmKfjoDVMGwjB-ZP/view?usp=sharing
