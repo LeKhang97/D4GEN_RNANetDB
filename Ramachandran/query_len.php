@@ -18,7 +18,7 @@ if (empty($_POST)){
    exit;
 } else {
 	$all_name = $_POST['min'].'+'.$_POST['max'].'+'.$_POST['type'];
-	shell_exec("python3 /home/khangle/Downloads/read_many_files.py $all_name");
+	shell_exec("python3 /home/khangle/Downloads/process_len.py $all_name");
 	$image =  '/home/khangle/Downloads/RNANet/plot.png';
 }
 ?>
