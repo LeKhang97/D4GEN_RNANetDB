@@ -15,7 +15,7 @@
     </script>
 
 
-<form  action="read_json.php" id="form_submit" method="post">
+<form  action="output_pdb_to_2d.php" id="form_submit" method="post">
 	<p> Put your pdb code:<br><input type="textbox" rows="4" cols="50" id="a1" name="pdb"></br>
 	<p> Put your chain name:<br><input type="textbox" rows="4" cols="50" id="a2" name="chain"></br>
 	<input type="submit" value="Submit" onclick ="validateAndSend()"> </p>
