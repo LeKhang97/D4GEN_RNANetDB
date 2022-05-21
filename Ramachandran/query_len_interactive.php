@@ -18,7 +18,7 @@ if (empty($_POST)){
    exit;
 } else {
         $all_name = $_POST['min'].'+'.$_POST['max'].'+'.$_POST['type'];
-        shell_exec("python3 /home/khangle/Downloads/RNANet/read_many_files_interactive.py $all_name 2> er.log");
+        shell_exec("python3 /home/khangle/Downloads/RNANet/process_len_interactive.py $all_name 2> er.log");
 
 echo "<iframe src='output_plotly.html' width='800' height='800' scrolling = 'no'></iframe>";
 echo "<iframe src='output_plotly2.html' width='800' height='800' scrolling = 'no'></iframe>";
